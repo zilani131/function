@@ -6,8 +6,10 @@ function n(z){
     if(z<2){
         return 'please enter a number greater than 1'
     }
-    for(let i=2;i<z;i++){
+    let i=2;
+   while(i<z){
         f[i]=f[i-1]+f[i-2];
+        i++
        
     }
     return f ;
