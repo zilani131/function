@@ -1,5 +1,6 @@
-let z=[31,50,39,40,30,7,45]
-var largest=z[0];
+let n=[31,50,39,40,30,7,45]
+function secondLargest(z){
+  var largest=z[0];
 var second=z[0];
 for (let i=0;i<z.length;i++){
     
@@ -11,7 +12,9 @@ for (let i=0;i<z.length;i++){
     second=z[i]
   }
             
+}return second;
+
 }
 
-
-console.log(second)
+let result =secondLargest(n)
+console.log(result)
